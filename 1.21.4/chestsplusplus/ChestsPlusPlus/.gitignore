@@ -1,0 +1,11 @@
+
+Server/
+Server_1_14_4/
+target/
+*.log
+.idea/
+.DS_Store
+ChestsPlusPlus.iml
+*.iml
+POEditorImport/src/main/java/com/jamesdpeters/poeditor/POEapi.java
+/BuildTools/
