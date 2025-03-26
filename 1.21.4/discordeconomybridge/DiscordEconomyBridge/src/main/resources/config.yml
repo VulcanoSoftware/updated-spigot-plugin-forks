@@ -1,0 +1,42 @@
+# DiscordEconomyBridge Configuration
+# Plugin version 5.3 for Spigot 1.21.4
+
+# Bot Configuration
+bot:
+  token: "YOUR_BOT_TOKEN_HERE"
+  activity: "watching your economy"
+  status: "online" # online, idle, dnd, invisible
+
+# Discord Configuration
+discord:
+  guild_id: "YOUR_GUILD_ID_HERE"
+  channel_id: "YOUR_CHANNEL_ID_HERE"
+  
+# Integration
+integration:
+  use_vault: true
+  use_discordsrv: true
+  use_placeholderapi: true
+  
+# Command Configuration
+commands:
+  prefix: "!"
+  enabled:
+    - balance
+    - pay
+    - baltop
+  
+# Database
+database:
+  type: "yaml" # yaml, mysql, sqlite
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "discordeconomybridge"
+    username: "root"
+    password: "password"
+    
+# Messages
+messages:
+  prefix: "&8[&bDiscordEconomyBridge&8] &7"
+  no_permission: "%prefix%&cYou don't have permission to do that!" 

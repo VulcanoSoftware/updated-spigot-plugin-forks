@@ -1,0 +1,13 @@
+name: DiscordEconomyBridge
+version: 5.3
+main: me.pliexe.discordeconomybridge.DiscordEconomyBridge
+api-version: '1.21'
+author: Pliexe
+description: Bridge between your Spigot economy and Discord
+website: https://github.com/Pliexe/DiscordEconomyBridge
+softdepend: [Vault, PlaceholderAPI, DiscordSRV]
+commands:
+  discordeconomybridge:
+    description: Main command for the plugin
+    aliases: [deb]
+    permission: discordeconomybridge.admin 
